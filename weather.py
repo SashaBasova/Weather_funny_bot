@@ -4,7 +4,7 @@ import random
 from telebot import types
 
 #Токен телеграм-бота
-bot = telebot.TeleBot('5976275597:AAEa0xiC2ue2smMUVaHgdh6fAqZ0X-OXxl4', parse_mode='html')
+bot = telebot.TeleBot('token', parse_mode='html')
 
 #Приветственное сообщение при команде '/start'
 @bot.message_handler(commands=['start'])
